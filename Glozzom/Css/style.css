@@ -1,0 +1,79 @@
+body{
+    overflow-x: hidden;
+}
+.navbar .nav-link{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-image-1{
+    background: url(/Images/image1.jpg);
+    /* background-size: cover; */
+}
+
+.carousel-image-2{
+    background: url(/Images/image2.jpg);
+    background-size: cover
+}
+
+.carousel-image-3{
+    background: url(/Images/image3.jpg);
+    background-size: cover
+}
+#home-icons .fas{
+    color: aqua
+
+}
+#home-head{
+    position: relative;
+    background: url(/Images/lights.jpg);
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+}
+.dark-overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgb(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+}
+#video-section{
+
+    position: relative;
+    background: url(/Images/media.jpg);
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+    background-position: 0 -300px;
+
+}
+#video-section a {
+    color: #fff;
+}
+
+
+/* About Page */
+
+#page-header{
+    height: 400px;
+    background: url(/Images/image1.jpg);
+    background-attachment: fixed;
+    background-position: 0 -360px;
+    color: #fff;
+    border-bottom: 1px solid #eee;
+    padding-top: 100px;
+}
+
+.about-img{
+    margin-top: -70px;
+}
